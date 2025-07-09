@@ -1,0 +1,66 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.14.10"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "7d1ade515de0b4ceb67c284c75235006",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "7af8b0742e17acc248cdffc344dac753",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='ee1fcc41-344d-d94e-a992-bc1651843a85'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id&#92;&quot;:1,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Jan&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Kowalski&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;Liceum Ogolnoksztalcace nr. V&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2020-09-01&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;2000.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:3,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Janet&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Smith&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;F.D. Roosevelt HS&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2011-10-30&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;36200.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:4,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Lee&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Reynolds&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;F.D. Roosevelt HS&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;1993-05-22&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;65000.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:5,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Samuel&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Cole&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;Myers Middle School&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2005-08-01&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;43500.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:6,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Samantha&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Bush&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;Myers Middle School&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2011-10-30&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;36200.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:7,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Betty&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Diaz&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;Myers Middle School&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2005-08-30&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;43500.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:8,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Kathleen&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Roush&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;F.D. Roosevelt HS&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2010-10-22&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;38500.00&#92;&quot;}]&quot;' data-total-rows='7' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id&quot;, [&quot;integer&quot;, &quot;i64&quot;]], [&quot;first_name&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;last_name&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;school&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;hire_date&quot;, [&quot;date&quot;, &quot;date&quot;]], [&quot;salary&quot;, [&quot;number&quot;, &quot;decimal[*,2]&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "cf20b55cbf46f54eec06f4ac190a1bdb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='c57bae97-5b02-eabf-b560-80c5340173b7'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id&#92;&quot;:7,&#92;&quot;animal_id&#92;&quot;:7,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Mammals&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Elephant&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;5000.00&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:true,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-06-20&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Herbivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;},{&#92;&quot;id&#92;&quot;:3,&#92;&quot;animal_id&#92;&quot;:3,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Fish&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Great White Shark&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;2000.00&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:false,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-06-10&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Piscivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;},{&#92;&quot;id&#92;&quot;:15,&#92;&quot;animal_id&#92;&quot;:15,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Mammals&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Giraffe&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;1200.00&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:true,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-07-05&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Herbivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;},{&#92;&quot;id&#92;&quot;:1,&#92;&quot;animal_id&#92;&quot;:1,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Mammals&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Lion&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;190.50&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:true,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-06-01&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Carnivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;},{&#92;&quot;id&#92;&quot;:10,&#92;&quot;animal_id&#92;&quot;:10,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Reptiles&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Komodo Dragon&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;80.00&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:true,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-06-28&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Carnivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;},{&#92;&quot;id&#92;&quot;:11,&#92;&quot;animal_id&#92;&quot;:11,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Mammals&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Kangaroo&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;60.00&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:true,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-07-01&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Herbivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;},{&#92;&quot;id&#92;&quot;:4,&#92;&quot;animal_id&#92;&quot;:4,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Reptiles&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Python&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;45.75&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:true,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-06-12&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Carnivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;},{&#92;&quot;id&#92;&quot;:8,&#92;&quot;animal_id&#92;&quot;:8,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Birds&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Penguin&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;35.00&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:true,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-06-22&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Piscivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;},{&#92;&quot;id&#92;&quot;:6,&#92;&quot;animal_id&#92;&quot;:6,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Invertebrates&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Octopus&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;15.00&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:false,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-06-18&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Carnivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;},{&#92;&quot;id&#92;&quot;:2,&#92;&quot;animal_id&#92;&quot;:2,&#92;&quot;animal_kingdom&#92;&quot;:&#92;&quot;Birds&#92;&quot;,&#92;&quot;species&#92;&quot;:&#92;&quot;Eagle&#92;&quot;,&#92;&quot;animal_weight&#92;&quot;:&#92;&quot;6.20&#92;&quot;,&#92;&quot;is_vaccinated&#92;&quot;:true,&#92;&quot;recorded_date&#92;&quot;:&#92;&quot;2025-06-05&#92;&quot;,&#92;&quot;diet_type&#92;&quot;:&#92;&quot;Carnivore&#92;&quot;,&#92;&quot;health_status&#92;&quot;:&#92;&quot;Healthy&#92;&quot;}]&quot;' data-total-rows='10' data-total-columns='9' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id&quot;, [&quot;integer&quot;, &quot;i64&quot;]], [&quot;animal_id&quot;, [&quot;integer&quot;, &quot;i64&quot;]], [&quot;animal_kingdom&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;species&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;animal_weight&quot;, [&quot;number&quot;, &quot;decimal[*,2]&quot;]], [&quot;is_vaccinated&quot;, [&quot;boolean&quot;, &quot;bool&quot;]], [&quot;recorded_date&quot;, [&quot;date&quot;, &quot;date&quot;]], [&quot;diet_type&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;health_status&quot;, [&quot;string&quot;, &quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Dgzt",
+      "code_hash": "2569c44faf6637c600c059615cad0a0d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Dgzt-0' random-id='2dbe3a0c-1143-0ab3-76f7-de90d719aee1'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id&#92;&quot;:1,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Jan&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Kowalski&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;Liceum Ogolnoksztalcace nr. V&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2020-09-01&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;2000.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:3,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Janet&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Smith&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;F.D. Roosevelt HS&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2011-10-30&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;36200.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:4,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Lee&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Reynolds&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;F.D. Roosevelt HS&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;1993-05-22&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;65000.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:5,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Samuel&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Cole&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;Myers Middle School&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2005-08-01&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;43500.00&#92;&quot;},{&#92;&quot;id&#92;&quot;:6,&#92;&quot;first_name&#92;&quot;:&#92;&quot;Samantha&#92;&quot;,&#92;&quot;last_name&#92;&quot;:&#92;&quot;Bush&#92;&quot;,&#92;&quot;school&#92;&quot;:&#92;&quot;Myers Middle School&#92;&quot;,&#92;&quot;hire_date&#92;&quot;:&#92;&quot;2011-10-30&#92;&quot;,&#92;&quot;salary&#92;&quot;:&#92;&quot;36200.00&#92;&quot;}]&quot;' data-total-rows='5' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id&quot;, [&quot;integer&quot;, &quot;i64&quot;]], [&quot;first_name&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;last_name&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;school&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;hire_date&quot;, [&quot;date&quot;, &quot;date&quot;]], [&quot;salary&quot;, [&quot;number&quot;, &quot;decimal[*,2]&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "JVKV",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
